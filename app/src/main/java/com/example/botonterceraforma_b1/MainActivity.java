@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 obtenerInformacion();
             }
         });
+        //funcion lambda
         btnMensaje.setOnClickListener((view -> obtenerInformacion()));
     }
 
